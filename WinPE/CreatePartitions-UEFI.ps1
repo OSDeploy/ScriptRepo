@@ -50,7 +50,6 @@ exit
 if ($env:SystemDrive -eq 'X:') {
     $DiskpartScript | Out-File X:\CreatePartitions-UEFI.txt -Encoding ASCII
     DiskPart /s X:\CreatePartitions-UEFI.txt
-    $Global:MyOSDCloud.SkipNewOSDisk = $true
 }
 else {
     Write-Warning "This script must be run in WinPE"
