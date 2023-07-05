@@ -1,4 +1,4 @@
-About Start-OSDScripts
+About Start-ScriptRepo
 
 Script: Select a script from the combobox
 Filter: Scripts will be limited by a value match in the script name and relative path
